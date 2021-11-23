@@ -96,11 +96,11 @@ class Client
      * Emits a message through the engine
      *
      * @param string $event
-     * @param array  $args
+     * @param array|string  $args
      *
      * @return $this
      */
-    public function emit($event, array $args)
+    public function emit($event, $args)
     {
         $this->logger->debug('Sending a new message', ['event' => $event, 'args' => $args]);
         $this->engine->emit($event, $args);
