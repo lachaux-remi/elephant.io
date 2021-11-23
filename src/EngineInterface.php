@@ -47,7 +47,7 @@ interface EngineInterface extends LoggerAwareInterface
      * @param string $event Event to emit
      * @param array  $args  Arguments to send
      */
-    public function emit($event, array $args);
+    public function emit($event, $args);
 
     /**
      * Wait for event to arrive.

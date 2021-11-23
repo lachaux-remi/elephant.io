@@ -71,7 +71,7 @@ class Version0X extends AbstractSocketIO
     }
 
     /** {@inheritDoc} */
-    public function emit($event, array $args)
+    public function emit($event, $args)
     {
         $this->write(static::PACKET_EVENT, json_encode(['name' => $event, 'args' => $args]));
     }

@@ -86,7 +86,7 @@ class Version1X extends AbstractSocketIO
     }
 
     /** {@inheritDoc} */
-    public function emit($event, array $args)
+    public function emit($event, $args)
     {
         $this->keepAlive();
         $namespace = $this->namespace;
