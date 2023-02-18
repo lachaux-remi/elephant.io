@@ -2,7 +2,7 @@ Elephant.io
 ===========
 [![Build Status](https://travis-ci.org/Wisembly/elephant.io.svg?branch=master)](https://travis-ci.org/Wisembly/elephant.io)
 [![Latest Stable Version](https://poser.pugx.org/wisembly/elephant.io/v/stable.svg)](https://packagist.org/packages/wisembly/elephant.io)
-[![Total Downloads](https://poser.pugx.org/wisembly/elephant.io/downloads.svg)](https://packagist.org/packages/wisembly/elephant.io) 
+[![Total Downloads](https://poser.pugx.org/wisembly/elephant.io/downloads.svg)](https://packagist.org/packages/wisembly/elephant.io)
 [![License](https://poser.pugx.org/wisembly/elephant.io/license.svg)](https://packagist.org/packages/wisembly/elephant.io)
 
 ```
@@ -11,13 +11,15 @@ Elephant.io
      /      ./_    Y    "-. \    communications between your PHP Application and
     Y       :~     !         Y   a real-time server.
     lq p    |     /         .|
- _   \. .-, l    /          |j   Requires PHP 5.4 and openssl, licensed under
+ _   \. .-, l    /          |j   Requires PHP 7.4 and openssl, licensed under
 ()\___) |/   \_/";          !    the MIT License.
  \._____.-~\  .  ~\.      ./
             Y_ Y_. "vr"~  T      Built-in Engines :
-            (  (    |L    j      - Socket.io 2.x
-            [nn[nn..][nn..]      - Socket.io 1.x
-          ~~~~~~~~~~~~~~~~~~~    - Socket.io 0.x (courtesy of @kbu1564)
+            (  (    |L    j      - Socket.io 4.x
+            [nn[nn..][nn..]      - Socket.io 3.x
+          ~~~~~~~~~~~~~~~~~~~    - Socket.io 2.x
+                                 - Socket.io 1.x
+                                 - Socket.io 0.x (courtesy of @kbu1564)
 ```
 
 NOTICE
